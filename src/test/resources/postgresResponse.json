@@ -1,0 +1,1184 @@
+{
+  "status": {
+    "code": "1001",
+    "message": "Processed the taxengine request successfully",
+    "description": "SUCCESS"
+  },
+  "orderItems": [
+    {
+      "id": "1",
+      "partNumber": "TFSAPP1SPH200",
+      "orderItemPrice": {
+        "taxes": {
+          "usfTax": 0.09,
+          "e911Tax": 2.16,
+          "rcrfTax": 0.03,
+          "salesTax": 1.21,
+          "e911FlatTax": 2.16,
+          "e911RateTax": 0.00,
+          "ostFlatAmount": 0.00,
+          "ostRateAmount": 0.02
+        },
+        "taxItems": [
+          {
+            "taxRate": 0.034600,
+            "taxAmount": 0.52,
+            "taxCategory": "01",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "04"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Arvada City Sales Tax"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "688"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "3"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "combs"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.029000,
+            "taxAmount": 0.44,
+            "taxCategory": "01",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "01"
+              },
+              {
+                "name": "taxDescription",
+                "value": "CO State Sales Tax"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "12005"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "3"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "combs"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.005700,
+            "taxAmount": 0.09,
+            "taxCategory": "75",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "35"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Fed Universal Service Charge"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "5"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "16"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "0"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "usf"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.001000,
+            "taxAmount": 0.02,
+            "taxCategory": "A1",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "05"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Local Cd Spd Tax"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "3230"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "4"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "combs"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.010000,
+            "taxAmount": 0.15,
+            "taxCategory": "B1",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "05"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Local Rtd Spd Tax"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "3165"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "4"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "combs"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.005000,
+            "taxAmount": 0.08,
+            "taxCategory": "01",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "02"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Jefferson Cnty Sales Tax"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "396"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "3"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "combs"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.000000,
+            "taxAmount": 2.09,
+            "taxCategory": "25",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "06"
+              },
+              {
+                "name": "taxDescription",
+                "value": "CO Prepaid Wireless 911"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "12005"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "1"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "e911_FlatAmt"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.001000,
+            "taxAmount": 0.02,
+            "taxCategory": "25",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "09"
+              },
+              {
+                "name": "taxDescription",
+                "value": "CO TRS Surcharge"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "12005"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "1"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "ost_RateAmt"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.000000,
+            "taxAmount": 0.07,
+            "taxCategory": "25",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "66"
+              },
+              {
+                "name": "taxDescription",
+                "value": "CO Prepaid Wireless 988"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "T"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "12005"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "1"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "e911_FlatAmt"
+              }
+            ]
+          },
+          {
+            "taxRate": 0.002000,
+            "taxAmount": 0.03,
+            "taxCategory": "75",
+            "taxItemExtension": [
+              {
+                "name": "taxType",
+                "value": "31"
+              },
+              {
+                "name": "taxDescription",
+                "value": "Regulatory Cost Recovery"
+              },
+              {
+                "name": "taxSurchargeInd",
+                "value": "5"
+              },
+              {
+                "name": "taxAuthorityId",
+                "value": "16"
+              },
+              {
+                "name": "jurisLevel",
+                "value": "0"
+              },
+              {
+                "name": "taxTypeCategory",
+                "value": "rcrf"
+              }
+            ]
+          }
+        ],
+        "discounts": null,
+        "baseAmount": 15.00,
+        "totalTaxes": 3.51,
+        "totalAmount": 18.51,
+        "discountAmount": null,
+        "shippingAmount": null,
+        "itemAllocationPrice": [
+          {
+            "id": "1_C1",
+            "taxItems": [
+              {
+                "taxRate": 0.034600,
+                "taxAmount": 0.52,
+                "taxCategory": "01",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "04"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Arvada City Sales Tax"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "688"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "3"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "combs"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.029000,
+                "taxAmount": 0.44,
+                "taxCategory": "01",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "01"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "CO State Sales Tax"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "12005"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "3"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "combs"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.005700,
+                "taxAmount": 0.09,
+                "taxCategory": "75",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "35"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Fed Universal Service Charge"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "5"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "16"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "0"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "usf"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.001000,
+                "taxAmount": 0.02,
+                "taxCategory": "A1",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "05"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Local Cd Spd Tax"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "3230"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "4"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "combs"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.010000,
+                "taxAmount": 0.15,
+                "taxCategory": "B1",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "05"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Local Rtd Spd Tax"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "3165"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "4"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "combs"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.005000,
+                "taxAmount": 0.08,
+                "taxCategory": "01",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "02"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Jefferson Cnty Sales Tax"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "396"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "3"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "combs"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.000000,
+                "taxAmount": 2.09,
+                "taxCategory": "25",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "06"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "CO Prepaid Wireless 911"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "12005"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "1"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "e911_FlatAmt"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.001000,
+                "taxAmount": 0.02,
+                "taxCategory": "25",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "09"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "CO TRS Surcharge"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "12005"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "1"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "ost_RateAmt"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.000000,
+                "taxAmount": 0.07,
+                "taxCategory": "25",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "66"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "CO Prepaid Wireless 988"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "T"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "12005"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "1"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "e911_FlatAmt"
+                  }
+                ]
+              },
+              {
+                "taxRate": 0.002000,
+                "taxAmount": 0.03,
+                "taxCategory": "75",
+                "taxItemExtension": [
+                  {
+                    "name": "taxType",
+                    "value": "31"
+                  },
+                  {
+                    "name": "taxDescription",
+                    "value": "Regulatory Cost Recovery"
+                  },
+                  {
+                    "name": "taxSurchargeInd",
+                    "value": "5"
+                  },
+                  {
+                    "name": "taxAuthorityId",
+                    "value": "16"
+                  },
+                  {
+                    "name": "jurisLevel",
+                    "value": "0"
+                  },
+                  {
+                    "name": "taxTypeCategory",
+                    "value": "rcrf"
+                  }
+                ]
+              }
+            ],
+            "taxItemId": "001",
+            "taxGroupId": "5017",
+            "totalTaxes": 3.51,
+            "totalAmount": 18.51,
+            "allocationType": "Voice",
+            "allocationAmount": 15.00,
+            "totalOtherTaxAmount": 0.12,
+            "totalMandatoryTaxAmount": 3.39
+          },
+          {
+            "id": "1_C2",
+            "taxItems": [],
+            "taxItemId": "002",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "totalAmount": 0.00,
+            "allocationType": "Data",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_C3",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "totalAmount": 0.00,
+            "allocationType": "Sms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_C4",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "totalAmount": 0.00,
+            "allocationType": "Mms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          }
+        ],
+        "totalOtherTaxAmount": 0.12,
+        "othersDiscountAmount": 0.00,
+        "itemsAllocationDiscount": [
+          {
+            "id": "1_D1",
+            "taxItems": [],
+            "taxItemId": "001",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Others",
+            "totalAmount": 0.00,
+            "allocationType": "Voice",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D2",
+            "taxItems": [],
+            "taxItemId": "002",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Others",
+            "totalAmount": 0.00,
+            "allocationType": "Data",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D3",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Others",
+            "totalAmount": 0.00,
+            "allocationType": "Sms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D4",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Others",
+            "totalAmount": 0.00,
+            "allocationType": "Mms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D5",
+            "taxItems": [],
+            "taxItemId": "001",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Lifeline",
+            "totalAmount": 0.00,
+            "allocationType": "Voice",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D6",
+            "taxItems": [],
+            "taxItemId": "002",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Lifeline",
+            "totalAmount": 0.00,
+            "allocationType": "Data",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D7",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Lifeline",
+            "totalAmount": 0.00,
+            "allocationType": "Sms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          },
+          {
+            "id": "1_D8",
+            "taxItems": [],
+            "taxItemId": "109",
+            "taxGroupId": "5017",
+            "totalTaxes": 0.00,
+            "description": "Lifeline",
+            "totalAmount": 0.00,
+            "allocationType": "Mms",
+            "allocationAmount": 0.00,
+            "totalOtherTaxAmount": 0.00,
+            "totalMandatoryTaxAmount": 0.00
+          }
+        ],
+        "lifelineDiscountAmount": null,
+        "totalMandatoryTaxAmount": 3.39
+      },
+      "productOffering": {
+        "id": "TFSAPP1SPH200",
+        "productSpecification": {
+          "id": "",
+          "brand": "TRACFONE"
+        }
+      },
+      "serviceCategory": "SERVICE_PLAN",
+      "productSerialNumber": "100000142076024"
+    }
+  ],
+  "orderPrice": {
+    "taxes": {
+      "usfTax": 0.09,
+      "e911Tax": 2.16,
+      "rcrfTax": 0.03,
+      "salesTax": 1.21,
+      "e911FlatTax": 2.16,
+      "e911RateTax": 0.00,
+      "ostFlatAmount": 0.00,
+      "ostRateAmount": 0.02
+    },
+    "taxItems": [
+      {
+        "taxRate": 0.005000,
+        "taxAmount": 0.08,
+        "taxCategory": "01",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "02"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Jefferson Cnty Sales Tax"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "396"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "3"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "combs"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.000000,
+        "taxAmount": 2.09,
+        "taxCategory": "25",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "06"
+          },
+          {
+            "name": "taxDescription",
+            "value": "CO Prepaid Wireless 911"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "12005"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "1"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "e911_FlatAmt"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.000000,
+        "taxAmount": 0.07,
+        "taxCategory": "25",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "66"
+          },
+          {
+            "name": "taxDescription",
+            "value": "CO Prepaid Wireless 988"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "12005"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "1"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "e911_FlatAmt"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.001000,
+        "taxAmount": 0.02,
+        "taxCategory": "25",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "09"
+          },
+          {
+            "name": "taxDescription",
+            "value": "CO TRS Surcharge"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "12005"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "1"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "ost_RateAmt"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.034600,
+        "taxAmount": 0.52,
+        "taxCategory": "01",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "04"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Arvada City Sales Tax"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "688"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "3"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "combs"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.029000,
+        "taxAmount": 0.44,
+        "taxCategory": "01",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "01"
+          },
+          {
+            "name": "taxDescription",
+            "value": "CO State Sales Tax"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "12005"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "3"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "combs"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.005700,
+        "taxAmount": 0.09,
+        "taxCategory": "75",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "35"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Fed Universal Service Charge"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "5"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "16"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "0"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "usf"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.001000,
+        "taxAmount": 0.02,
+        "taxCategory": "A1",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "05"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Local Cd Spd Tax"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "3230"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "4"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "combs"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.002000,
+        "taxAmount": 0.03,
+        "taxCategory": "75",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "31"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Regulatory Cost Recovery"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "5"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "16"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "0"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "rcrf"
+          }
+        ]
+      },
+      {
+        "taxRate": 0.010000,
+        "taxAmount": 0.15,
+        "taxCategory": "B1",
+        "taxItemExtension": [
+          {
+            "name": "taxType",
+            "value": "05"
+          },
+          {
+            "name": "taxDescription",
+            "value": "Local Rtd Spd Tax"
+          },
+          {
+            "name": "taxSurchargeInd",
+            "value": "T"
+          },
+          {
+            "name": "taxAuthorityId",
+            "value": "3165"
+          },
+          {
+            "name": "jurisLevel",
+            "value": "4"
+          },
+          {
+            "name": "taxTypeCategory",
+            "value": "combs"
+          }
+        ]
+      }
+    ],
+    "taxAmount": 3.51,
+    "baseAmount": 15.00,
+    "totalAmount": 18.51,
+    "discountAmount": 0,
+    "shippingAmount": 0,
+    "totalOtherTaxAmount": 0.12,
+    "othersDiscountAmount": 0.00,
+    "lifelineDiscountAmount": null,
+    "totalMandatoryTaxAmount": 3.39
+  },
+  "httpStatusCode": "OK",
+  "billingPostalAddress": {
+    "city": null,
+    "country": null,
+    "geoCode": "USA08059034550",
+    "zipCode": "80003",
+    "addressLine1": null,
+    "addressLine2": null,
+    "stateOrProvince": null
+  },
+  "shippingPostalAddress": {
+    "city": null,
+    "country": null,
+    "geoCode": "",
+    "zipCode": null,
+    "addressLine1": null,
+    "addressLine2": null,
+    "stateOrProvince": null
+  }
+}
+
+
+
+
+
+
+
+
+

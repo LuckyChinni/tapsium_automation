@@ -1,0 +1,4 @@
+Host = localhost
+username = postgres
+password = admin
+port = 5432 (5433 - if 5432 is not working)

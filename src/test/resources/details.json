@@ -1,0 +1,14 @@
+{
+  "name": "Ram",
+  "email": "abc@gmail.com",
+  "home": [
+    {
+      "road": "TUY",
+      "zip": "700008"
+    },
+    {
+      "road": "TUX",
+      "zip": "700061"
+    }
+  ]
+}

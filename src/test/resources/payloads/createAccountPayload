@@ -1,0 +1,25 @@
+{
+    "common":{
+        "brandName": "[BrandName]",
+        "clientAppName": "MYACCOUNT",
+        "clientAppVersion": "1",
+        "deviceModel": "IOS",
+        "OSVersion": "1",
+        "language": "ENG",
+        "sourceSystem": "APP"
+        },
+        "email": "[Email]",
+        "request": {
+            "accountId": 0,
+            "esn": "[ESN]",
+            "sim": "[SIM]",
+            "min": "",
+            "zipcode": "33178",
+            "password": "Awe#1234!",
+            "dateOfBirth": "12-12-1990",
+            "saving": "true",
+            "offers": "true",
+            "securityCode": "2526"
+        }
+
+}
